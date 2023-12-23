@@ -1,0 +1,49 @@
+$theme-colors: (
+    "site-secondary": #f7f7f8,
+);
+@import "node_modules/bootstrap/scss/bootstrap";
+::-webkit-scrollbar {
+    width: 0.111rem;
+    height: 0rem;
+}
+::-webkit-scrollbar-track {
+    background: theme-color("site-secondary1");
+}
+::-webkit-scrollbar-thumb {
+    background-color: #cecece; /* color of the scroll thumb */
+    border-radius: 1.25rem; /* roundness of the scroll thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+.title {
+    color: #3c83a1;
+}
+.send-text-design {
+    border-radius: 12px;
+}
+.icon-design {
+    color: #cee0e7;
+    font-size: 18px;
+    cursor: pointer;
+}
+.card-custom {
+    border-radius: 20px !important;
+}
+.chat-body {
+    max-height: 58vh;
+    overflow: auto;
+}
+.cursor {
+    cursor: pointer !important;
+}
+.light {
+    background-color: #ffffff !important;
+}
+.footer{
+    width: 89% !important;
+    position: fixed !important;
+    bottom:0px !important;
+    padding-bottom: 1px !important;
+}
+
